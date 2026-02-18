@@ -3,31 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "22.x"
+    "node": ">=22.0.0"
   },
   "dependencies": {
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^16.3.2",
-    "@testing-library/user-event": "^13.5.0",
-    "leaflet": "^1.9.4",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-leaflet": "^5.0.0",
-    "web-vitals": "^2.1.4"
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^7.3.1",
+    "jest": "^30.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "description": "Wastewater dashboard frontend using Vite + React",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nk-Jasi/wastewater-frontend.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -40,13 +42,8 @@
       "last 1 safari version"
     ]
   },
-  "description": "Wastewater dashboard frontend",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Nk-Jasi/wastewater-frontend.git"
-  },
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^27.5.1"
+  "homepage": "https://github.com/Nk-Jasi/wastewater-frontend#readme",
+  "bugs": {
+    "url": "https://github.com/Nk-Jasi/wastewater-frontend/issues"
   }
 }
