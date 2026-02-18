@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -57,4 +58,25 @@
     "url": "https://github.com/Nk-Jasi/wastewater-frontend/issues"
   },
   "homepage": "https://github.com/Nk-Jasi/wastewater-frontend#readme"
+=======
+  "name": "frontend-vite",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.5.14"
+  }
+>>>>>>> a7454550fd64be23279eacaf12db6eaf2f56d63b
 }
