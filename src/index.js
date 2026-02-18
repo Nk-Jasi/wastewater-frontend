@@ -1,13 +1,12 @@
-import { useState } from "react";
-import Login from "./components/Login";
-import Dashboard from "./components/Dashboard";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./index.css"; // optional, if you have CSS
 
-function App() {
-  const [token, setToken] = useState(null);
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-  if (!token) return <Login setToken={setToken} />;
-
-  return <Dashboard token={token} />;
-}
-
-export default App;
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
